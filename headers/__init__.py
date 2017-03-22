@@ -17,7 +17,7 @@ C_STYLE_COMMENT_EXTENSIONS = (
 # This is where we associate headers to file extensions
 HEADER_SPEC = (
     (C_STYLE_COMMENT_EXTENSIONS,                C_FAMILY_HEADER),
-    (('Makefile', ),                            MAKEFILE_HEADER),
+    (('Makefile', 'py',),                       MAKEFILE_HEADER),
     (('php', ),                                 PHP_HEADER),
     (('html', ),                                HTML_HEADER),
     (('lua', ),                                 LUA_HEADER),
